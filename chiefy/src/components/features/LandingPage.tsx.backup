@@ -709,150 +709,187 @@ const LandingPage = () => {
                 Join us in Melbourne and kickstart your property development career with this exclusive offer!
               </p>
             </div>
-            {/* COMMENTED OUT - OLD PRICING TIERS
             <div className="flex flex-col lg:flex-row gap-8 max-w-5xl mx-auto">
-              Explorer ($29/month), Developer ($79/month), Enterprise (Custom) plans
-            END COMMENTED OUT OLD PRICING */}
-
-            {/* NEW SINGLE PRICING TIER */}
-            <div className="flex justify-center max-w-4xl mx-auto">
-              <div className="developer-plan backdrop-blur-sm rounded-2xl p-10 border-2 border-purple-500/50 w-full relative overflow-hidden shadow-2xl">
-                <div className="absolute top-6 right-6 bg-gradient-to-r from-red-500 to-orange-500 text-white text-sm font-bold px-4 py-2 rounded-full shadow-lg animate-pulse">
-                  75% OFF - LIMITED SPOTS!
-                </div>
-                
-                <div className="mb-8 mt-4">
-                  <h3 className="text-3xl font-bold mb-3 gradient-text">Property Development Bootcamp</h3>
-                  <p className="text-white/80 text-lg mb-2">
-                    🏢 Melbourne CBD (City Venue)
-                  </p>
-                  <p className="text-white/70">
-                    Your complete pathway from beginner to development-ready professional
-                  </p>
-                </div>
-
-                <div className="mb-10 bg-white/5 p-6 rounded-xl border border-white/20">
-                  <div className="flex items-baseline gap-3 mb-2">
-                    <span className="text-white/50 line-through text-2xl">RRP: $1,999</span>
-                  </div>
-                  <div className="flex items-baseline gap-3 mb-3">
-                    <span className="text-5xl font-bold gradient-text">$499</span>
-                    <span className="text-white/70 text-xl">one-time payment</span>
-                  </div>
-                  <div className="bg-gradient-to-r from-purple-500/20 to-pink-500/20 px-4 py-2 rounded-lg inline-block">
-                    <span className="text-white font-semibold">💰 Save $1,500 (75% OFF)</span>
-                  </div>
-                </div>
-
+              {/* Basic Plan */}
+              <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 flex-1 relative overflow-hidden">
                 <div className="mb-8">
-                  <h4 className="text-xl font-bold mb-4 text-white">What You Get - Incredible Value:</h4>
-                  <ul className="space-y-3">
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">Full platform access</strong> - All Explorer & Developer features included</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">AI Development Coach</strong> - Personalized mentoring & feedback</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">Advanced development simulations</strong> - Real market scenarios</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">Real-time market data access</strong> - Live property insights</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">Financial modeling tools</strong> - Professional-grade analytics</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">6 x 1-on-1 mentoring sessions</strong> - Direct expert guidance (Worth $900 alone!)</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">Industry certification preparation</strong> - Get qualified faster</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">Community forum & networking</strong> - Connect with peers & experts</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">Monthly industry webinars</strong> - Stay ahead of trends</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">Custom learning paths</strong> - Tailored to your goals</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">Progress tracking dashboard</strong> - Monitor your growth</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">Lifetime access to course materials</strong> - Learn at your own pace forever</span>
-                    </li>
-                  </ul>
+                  <h3 className="text-2xl font-bold mb-2">Explorer</h3>
+                  <p className="text-white/70">
+                    Perfect for students and early career professionals
+                  </p>
                 </div>
-
-                <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/30 p-6 rounded-xl mb-8 border border-purple-500/30">
-                  <h4 className="text-lg font-bold mb-3 text-white">📍 Event Details:</h4>
-                  <div className="space-y-2 text-white/80">
-                    <p><strong className="text-white">Location:</strong> Melbourne, City (Premium Venue)</p>
-                    <p><strong className="text-white">Duration:</strong> Intensive 30-Day Program</p>
-                    <p><strong className="text-white">Format:</strong> Hybrid - In-person sessions + Online platform access</p>
-                    <p className="text-yellow-400 font-semibold mt-3">⚡ Only 20 spots available at this price!</p>
-                  </div>
+                <div className="mb-8">
+                  <span className="text-4xl font-bold">$29</span>
+                  <span className="text-white/70">/month</span>
                 </div>
-
+                <ul className="space-y-4 mb-8">
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>Access to basic development simulations</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>AI learning assistant</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>Community forum access</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>Monthly industry webinars</span>
+                  </li>
+                  <li className="flex items-start gap-3 text-white/50">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaTimes className="text-white/50" />
+                    </div>
+                    <span>Advanced financial modeling</span>
+                  </li>
+                  <li className="flex items-start gap-3 text-white/50">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaTimes className="text-white/50" />
+                    </div>
+                    <span>1-on-1 mentoring sessions</span>
+                  </li>
+                </ul>
                 <a
-                  href="#stay-updated"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document
-                      .querySelector("#stay-updated")
-                      ?.scrollIntoView({ behavior: "smooth" });
-                  }}
-                  className="neon-button bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-5 rounded-button text-center font-bold text-xl whitespace-nowrap block shadow-lg transform hover:scale-105 transition-all"
+                  href="#"
+                  className="border border-white/30 hover:border-white/50 bg-white/5 hover:bg-white/10 px-6 py-3 rounded-button text-center font-bold whitespace-nowrap block transition-colors"
                 >
-                  🎯 Secure Your Spot Now - Save $1,500!
+                  Start Free Trial
                 </a>
-                
-                <p className="text-center text-white/60 text-sm mt-4">
-                  ✓ No credit card required to reserve • ✓ 30-day money-back guarantee
-                </p>
+              </div>
+
+              {/* Pro Plan */}
+              <div className="developer-plan backdrop-blur-sm rounded-xl p-8 border border-white/20 flex-1 relative overflow-hidden lg:scale-105 z-10">
+                <div className="absolute top-5 right-5 bg-primary text-white text-xs px-3 py-1 rounded-full">
+                  MOST POPULAR
+                </div>
+                <div className="mb-8">
+                  <h3 className="text-2xl font-bold mb-2">Developer</h3>
+                  <p className="text-white/70">
+                    For professionals serious about career advancement
+                  </p>
+                </div>
+                <div className="mb-8">
+                  <span className="text-4xl font-bold">$79</span>
+                  <span className="text-white/70">/month</span>
+                </div>
+                <ul className="space-y-4 mb-8">
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>All Explorer features</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>Advanced development simulations</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>Real-time market data access</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>Financial modeling tools</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>2 monthly 1-on-1 mentoring sessions</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>Industry certification preparation</span>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  className="neon-button bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-button text-center font-bold whitespace-nowrap block"
+                >
+                  Start Free Trial
+                </a>
+              </div>
+
+              {/* Enterprise Plan */}
+              <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 flex-1 relative overflow-hidden">
+                <div className="mb-8">
+                  <h3 className="text-2xl font-bold mb-2">Enterprise</h3>
+                  <p className="text-white/70">
+                    For companies training multiple employees
+                  </p>
+                </div>
+                <div className="mb-8">
+                  <span className="text-4xl font-bold">Custom</span>
+                  <span className="text-white/70"></span>
+                </div>
+                <ul className="space-y-4 mb-8">
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>All Developer features</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>Custom learning paths</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>Dedicated account manager</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>White-labeled platform</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>Progress tracking dashboard</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                      <FaCheck className="text-green-400" />
+                    </div>
+                    <span>Unlimited mentoring sessions</span>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  className="border border-white/30 hover:border-white/50 bg-white/5 hover:bg-white/10 px-6 py-3 rounded-button text-center font-bold whitespace-nowrap block transition-colors"
+                >
+                  Contact Sales
+                </a>
               </div>
             </div>
             <div className="mt-12 text-center">
               <p className="text-white/70 mb-4">
-                Exclusive early bird offer - Limited spots available!
+                All plans include a 14-day free trial. No credit card required.
               </p>
               <div className="flex flex-wrap justify-center gap-6">
                 <div className="flex items-center gap-2">

@@ -332,9 +332,7 @@ const LandingPage = () => {
                   <p className="text-white/70 font-semibold text-center">LVL Group</p>
                 </div>
               </div>
-              <p className="text-white/50 text-sm mt-8">
-                Logos and partnerships to be confirmed
-              </p>
+              
             </div>
           </div>
         </section>
@@ -866,7 +864,7 @@ const LandingPage = () => {
           <div className="container mx-auto px-6 relative z-10">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="hero-title text-4xl font-bold mb-4">
-                <span className="gradient-text">Early Bird Special</span> - Limited Time Offer
+                Early Bird Special - <span className="gradient-text"> Limited Time Offer</span>
               </h2>
               <p className="text-white/70 text-lg">
                 Join us in Melbourne and kickstart your property development career with this exclusive offer!

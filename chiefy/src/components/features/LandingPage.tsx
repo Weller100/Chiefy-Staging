@@ -218,32 +218,26 @@ const LandingPage = () => {
                 
               </div>
 
-              {/* Stats Section */}
+              {/* COMMENTED OUT - Stats Section
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
-                {/* Employment Rate */}
                 <div className="bg-white/5 backdrop-blur-sm p-4 rounded-lg border border-white/10">
                   <h3 className="text-3xl font-bold gradient-text">90%</h3>
                   <p className="text-white/70 text-sm">Employment Rate</p>
                 </div>
-
-                {/* Active Learners */}
                 <div className="bg-white/5 backdrop-blur-sm p-4 rounded-lg border border-white/10">
                   <h3 className="text-3xl font-bold gradient-text">100</h3>
                   <p className="text-white/70 text-sm">Active Learners</p>
                 </div>
-
-                {/* Industry Partners */}
                 <div className="bg-white/5 backdrop-blur-sm p-4 rounded-lg border border-white/10">
                   <h3 className="text-3xl font-bold gradient-text">25+</h3>
                   <p className="text-white/70 text-sm">Industry Partners</p>
                 </div>
-
-                {/* User Rating */}
                 <div className="bg-white/5 backdrop-blur-sm p-4 rounded-lg border border-white/10">
                   <h3 className="text-3xl font-bold gradient-text">4.9/5</h3>
                   <p className="text-white/70 text-sm">User Rating</p>
                 </div>
               </div>
+              END COMMENTED OUT - Stats Section */}
             </div>
           </div>
 
@@ -255,6 +249,96 @@ const LandingPage = () => {
         </div>
       </div> */}
         </section>
+
+        {/* Message Section */}
+        <section className="py-16 bg-gradient-to-b from-black to-black/95">
+          <div className="container mx-auto px-6">
+            <div className="max-w-4xl mx-auto text-center">
+              <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
+                Are you feeling lost or confused or don't know where to start with your career in property & construction? 
+                At <span className="gradient-text font-bold">Chiefy</span> we give you the tools you need to communicate 
+                across the <span className="text-purple-400 font-bold">100+ industry trades and professionals</span> so you 
+                can act with confidence from <span className="text-pink-400 font-bold">Day 1</span>.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Target Audience Section */}
+        <section className="py-16 bg-black">
+          <div className="container mx-auto px-6">
+            <div className="text-center max-w-3xl mx-auto mb-12">
+              <h2 className="text-4xl font-bold mb-4">
+                Who is <span className="gradient-text">Chiefy For?</span>
+              </h2>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 hover:border-purple-500/50 transition-all">
+                <div className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-6 mx-auto">
+                  <i className="ri-graduation-cap-line text-3xl text-purple-400"></i>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-3 text-center">
+                  University Students
+                </h3>
+                <p className="text-white/70 text-center">
+                  Launch your property development career with practical skills and industry connections
+                </p>
+              </div>
+              <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 hover:border-purple-500/50 transition-all">
+                <div className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-6 mx-auto">
+                  <i className="ri-hammer-line text-3xl text-purple-400"></i>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-3 text-center">
+                  Trades Professionals
+                </h3>
+                <p className="text-white/70 text-center">
+                  Expand your expertise and transition into property development management
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Collaboration Section */}
+        <section className="py-16 bg-gradient-to-b from-black to-black/95">
+          <div className="container mx-auto px-6">
+            <div className="text-center max-w-4xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold mb-12">
+                Brought to you in <span className="gradient-text">collaboration</span> with...
+              </h2>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
+                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
+                  <p className="text-white/70 font-semibold text-center">University of Sydney</p>
+                </div>
+                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
+                  <p className="text-white/70 font-semibold text-center">UTS</p>
+                </div>
+                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
+                  <p className="text-white/70 font-semibold text-center">RMIT</p>
+                </div>
+                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
+                  <p className="text-white/70 font-semibold text-center">University of Melbourne</p>
+                </div>
+                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
+                  <p className="text-white/70 font-semibold text-center">Bryant Alsop Arch</p>
+                </div>
+                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
+                  <p className="text-white/70 font-semibold text-center">UrbanCore</p>
+                </div>
+                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
+                  <p className="text-white/70 font-semibold text-center">Stadiums Tasmania</p>
+                </div>
+                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
+                  <p className="text-white/70 font-semibold text-center">LVL Group</p>
+                </div>
+              </div>
+              <p className="text-white/50 text-sm mt-8">
+                Logos and partnerships to be confirmed
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Features Section */}
         <section id="features" className="py-20 bg-black">
           <div className="container mx-auto px-6">

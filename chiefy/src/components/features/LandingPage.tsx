@@ -501,7 +501,7 @@ const LandingPage = () => {
           <div className="container mx-auto px-6 relative z-10">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="hero-title text-4xl font-bold mb-4">
-                'Your 30-Day <span className="gradient-text">Path to Development Ready</span>
+                Your 30-Day <span className="gradient-text">Path to Development Ready</span>
               </h2>
               <p className="text-white/70 text-lg">
                 Follow a structured path from industry novice to development

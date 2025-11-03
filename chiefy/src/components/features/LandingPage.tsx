@@ -1054,8 +1054,9 @@ const LandingPage = () => {
           ></div>
           <div className="container mx-auto px-6 relative z-10">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="hero-title text-4xl md:text-5xl font-bold mb-6">
-                What are you waiting for? Build your Future Today
+              <h2 className="hero-title text-4xl font-bold mb-4">
+
+                What are you waiting for? <span className="gradient-text"> Build your Future Today</span>
               </h2>
               <p className="text-xl text-white/80 mb-8">
                 Join thousands of professionals who are transforming their

@@ -675,7 +675,7 @@ const LandingPage = () => {
               </div>
             </div>
 
-            {/* Stats */}
+            {/* COMMENTED OUT - Stats Section
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-16 max-w-4xl mx-auto">
               <div className="bg-white/5 backdrop-blur-sm p-6 rounded-lg border border-white/10 text-center">
                 <h3 className="text-4xl font-bold gradient-text">90%</h3>
@@ -690,6 +690,7 @@ const LandingPage = () => {
                 <p className="text-white/70">Success Stories</p>
               </div>
             </div>
+            END COMMENTED OUT - Stats Section */}
           </div>
         </section>
         {/* Pricing Section */}

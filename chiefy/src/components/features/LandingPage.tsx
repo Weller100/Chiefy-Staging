@@ -599,6 +599,84 @@ const LandingPage = () => {
             </div>
           </div>
         </section>
+
+        {/* Chiefy Way Section */}
+        <section className="py-20 bg-gradient-to-b from-black/95 to-black relative overflow-hidden">
+          <div className="absolute top-0 left-0 w-full h-full">
+            <div className="w-full h-full grid-bg opacity-20"></div>
+          </div>
+          <div className="container mx-auto px-6 relative z-10">
+            <div className="text-center max-w-4xl mx-auto">
+              <h2 className="hero-title text-4xl font-bold mb-12">
+                Join the Waitlist and experience the{' '}
+                <span className="gradient-text">Chiefy Way</span> with...
+              </h2>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+                {/* Feature 1 */}
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-4 mx-auto">
+                    <i className="ri-team-line text-2xl text-purple-400"></i>
+                  </div>
+                  <h3 className="text-lg font-bold text-white mb-2">
+                    Exposure to Industry Experts and Networks
+                  </h3>
+                </div>
+
+                {/* Feature 2 */}
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-4 mx-auto">
+                    <i className="ri-book-open-line text-2xl text-purple-400"></i>
+                  </div>
+                  <h3 className="text-lg font-bold text-white mb-2">
+                    Relatable Lessons & Real-life Scenarios
+                  </h3>
+                </div>
+
+                {/* Feature 3 */}
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-4 mx-auto">
+                    <i className="ri-building-line text-2xl text-purple-400"></i>
+                  </div>
+                  <h3 className="text-lg font-bold text-white mb-2">
+                    Site Visit(s)
+                  </h3>
+                </div>
+
+                {/* Feature 4 */}
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-4 mx-auto">
+                    <i className="ri-mic-line text-2xl text-purple-400"></i>
+                  </div>
+                  <h3 className="text-lg font-bold text-white mb-2">
+                    Guest Speakers
+                  </h3>
+                </div>
+
+                {/* Feature 5 */}
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-4 mx-auto">
+                    <i className="ri-tools-line text-2xl text-purple-400"></i>
+                  </div>
+                  <h3 className="text-lg font-bold text-white mb-2">
+                    Innovative Training Tools
+                  </h3>
+                </div>
+
+                {/* Feature 6 */}
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-4 mx-auto">
+                    <i className="ri-shopping-bag-line text-2xl text-purple-400"></i>
+                  </div>
+                  <h3 className="text-lg font-bold text-white mb-2">
+                    Limited Edition Chiefy.ai Merchandise
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Testimonials Section */}
         <section id="testimonials" className="py-20 bg-black">
           <div className="container mx-auto px-6">

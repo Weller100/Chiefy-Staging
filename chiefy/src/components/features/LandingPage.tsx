@@ -194,14 +194,12 @@ const LandingPage = () => {
           <div className="container mx-auto px-6 py-20 relative z-20">
             <div className="max-w-3xl">
               <h1 className="hero-title text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-                Accelerate Your{" "}
+                Get {" "}
                 <span className="gradient-text">Property Development</span>{" "}
-                Career
+                Ready in 30 Days
               </h1>
               <p className="text-xl md:text-2xl text-white/80 mb-8">
-                AI-powered mentoring that transforms industry novices into
-                development experts through immersive, interactive learning
-                experiences.
+                Practical, fun & new-age, beginner-friendly coaching.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
                 <a
@@ -214,7 +212,7 @@ const LandingPage = () => {
                   }}
                   className="neon-button bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-button text-center font-bold whitespace-nowrap"
                 >
-                  Register Now
+                  Join the Waitlist
                 </a>
 
                 
@@ -368,7 +366,7 @@ const LandingPage = () => {
                   <BiBarChartSquare className="text-purple-500 text-2xl" />
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-white">
-                  Data Analytics
+                  Project Personalisation
                 </h3>
                 <p className="text-white/70 mb-4">
                   Access real-time market data and AI-powered insights to inform
@@ -419,7 +417,7 @@ const LandingPage = () => {
           <div className="container mx-auto px-6 relative z-10">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="hero-title text-4xl font-bold mb-4">
-                Your <span className="gradient-text">Learning Journey</span>
+                'Your 30-Day <span className="gradient-text">Path to Development Ready</span>
               </h2>
               <p className="text-white/70 text-lg">
                 Follow a structured path from industry novice to development
@@ -963,6 +961,7 @@ const LandingPage = () => {
           </div>
         </section>
         {/* Newsletter Section */}
+        {/*
         <section
           id="stay-updated"
           className="py-20 bg-gradient-to-b from-black to-purple-900/20"
@@ -1116,6 +1115,7 @@ const LandingPage = () => {
             </div>
           </div>
         </section>
+        */}
         {/* Footer */}
         <footer className="py-16 bg-black border-t border-white/10">
           <div className="container mx-auto px-6">

@@ -165,7 +165,7 @@ const LandingPage = () => {
                   rel="noopener noreferrer"
                   className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all"
                 >
-                Download
+                Download Chatbot
                 <span>↓</span>
               </a>
             </div>
@@ -987,9 +987,9 @@ const LandingPage = () => {
                   <h4 className="text-lg font-bold mb-3 text-white">📍 Event Details:</h4>
                   <div className="space-y-2 text-white/80">
                     <p><strong className="text-white">Location:</strong> Melbourne, City (Premium Venue)</p>
-                    <p><strong className="text-white">Duration:</strong> Intensive 30-Day Program</p>
-                    <p><strong className="text-white">Format:</strong> Hybrid - In-person sessions + Online platform access</p>
-                    <p className="text-yellow-400 font-semibold mt-3">⚡ Only 20 spots available at this price!</p>
+                    <p><strong className="text-white">Commencing:</strong> Early 2026</p>
+                    <p><strong className="text-white">Format:</strong> In-person session + Online platform access (hybrid)</p>
+                    <p className="text-yellow-400 font-semibold mt-3">⚡ Only 15 spots available at this price!</p>
                   </div>
                 </div>
 

@@ -35,7 +35,7 @@ export const VideoScreen = ({ setCurrentScreen, videoRef }: VideoScreenProps) =>
     </div>
     {/* About Chiefy Section */}
     <div className="w-full mx-auto mb-6 sm:mb-8 md:mb-12">
-      <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-white mb-2 sm:mb-3 md:mb-4 px-4">
+      {/*<h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-white mb-2 sm:mb-3 md:mb-4 px-4">
         About Chiefy
       </h2>
       <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-white leading-relaxed mb-4 sm:mb-6 text-justify px-4">
@@ -43,7 +43,7 @@ export const VideoScreen = ({ setCurrentScreen, videoRef }: VideoScreenProps) =>
         We've created an AI-powered coaching platform that breaks down 
         technical jargon, complex processes, and industry barriers into accessible knowledge for newcomers and 
         professionals alike.
-      </p>
+      </p>*/}
       <div className="text-center px-4">
         <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-bold gradient-text leading-relaxed">
           "Unlock the property development world from your pocket — anytime, anywhere with Chiefy."

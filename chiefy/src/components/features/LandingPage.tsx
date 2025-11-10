@@ -1067,7 +1067,7 @@ const LandingPage = () => {
                   href="#"
                   className="neon-button bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-button text-center font-bold whitespace-nowrap"
                 >
-                  Start Free Trial
+                  Join To
                 </a>
                 <a
                   href="#"

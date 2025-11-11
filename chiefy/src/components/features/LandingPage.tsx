@@ -530,51 +530,83 @@ const LandingPage = () => {
         </section>
 
         {/* Collaboration Section */}
-        <section className="py-16 bg-gradient-to-b from-black to-black/95">
+        <section className="py-16 bg-gradient-to-b from-black to-black/95 overflow-hidden">
           <div className="container mx-auto px-6">
-            <div className="text-center max-w-4xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold mb-12">
+            <div className="text-center max-w-4xl mx-auto mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold">
                 Brought to you in{" "}
                 <span className="gradient-text">collaboration</span> with...
               </h2>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
-                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">
-                    University of Sydney
-                  </p>
-                </div>
-                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">UTS</p>
-                </div>
-                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">
-                    RMIT
-                  </p>
-                </div>
-                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">
-                    University of Melbourne
-                  </p>
-                </div>
-                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">
-                    Bryant Alsop Arch
-                  </p>
-                </div>
-                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">
-                    UrbanCore
-                  </p>
-                </div>
-                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">
-                    Stadiums Tasmania
-                  </p>
-                </div>
-                <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">
-                    LVL Group
-                  </p>
+            </div>
+            <div className="relative">
+              <style jsx>{`
+                @keyframes scroll {
+                  0% {
+                    transform: translateX(0);
+                  }
+                  100% {
+                    transform: translateX(-50%);
+                  }
+                }
+                .marquee {
+                  display: flex;
+                  animation: scroll 30s linear infinite;
+                }
+                .marquee:hover {
+                  animation-play-state: paused;
+                }
+              `}</style>
+              <div className="flex overflow-hidden">
+                <div className="marquee flex gap-8 items-center">
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">University of Sydney</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">UTS</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">RMIT</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">University of Melbourne</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">Bryant Alsop Arch</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">UrbanCore</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">Stadiums Tasmania</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">LVL Group</p>
+                  </div>
+                  {/* Duplicate for seamless loop */}
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">University of Sydney</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">UTS</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">RMIT</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">University of Melbourne</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">Bryant Alsop Arch</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">UrbanCore</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">Stadiums Tasmania</p>
+                  </div>
+                  <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
+                    <p className="text-white/70 font-semibold">LVL Group</p>
+                  </div>
                 </div>
               </div>
             </div>

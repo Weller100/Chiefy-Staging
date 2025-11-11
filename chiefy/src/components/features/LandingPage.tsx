@@ -264,6 +264,170 @@ const LandingPage = () => {
           </div>
         </section>
 
+        {/* Pricing Section */}
+        <section
+          id="pricing"
+          className="py-20 bg-gradient-to-b from-black to-black/95 relative overflow-hidden"
+        >
+          <div className="absolute top-0 left-0 w-full h-full">
+            <div className="w-full h-full grid-bg opacity-20"></div>
+          </div>
+          <div className="container mx-auto px-6 relative z-10">
+            <div className="text-center max-w-3xl mx-auto mb-16">
+              <h2 className="hero-title text-4xl font-bold mb-4">
+                Early Bird Special - <span className="gradient-text"> Limited Time Offer</span>
+              </h2>
+              <p className="text-white/70 text-lg">
+                Join us in Melbourne and kickstart your property development career with this exclusive offer!
+              </p>
+            </div>
+            {/* COMMENTED OUT - OLD PRICING TIERS
+            <div className="flex flex-col lg:flex-row gap-8 max-w-5xl mx-auto">
+              Explorer ($29/month), Developer ($79/month), Enterprise (Custom) plans
+            END COMMENTED OUT OLD PRICING */}
+
+            {/* NEW SINGLE PRICING TIER */}
+            <div className="flex justify-center max-w-4xl mx-auto">
+              <div className="developer-plan backdrop-blur-sm rounded-2xl p-10 border-2 border-purple-500/50 w-full relative overflow-hidden shadow-2xl">
+                <div className="absolute top-6 right-6 bg-gradient-to-r from-red-500 to-orange-500 text-white text-sm font-bold px-4 py-2 rounded-full shadow-lg animate-pulse">
+                  75% OFF - LIMITED SPOTS!
+                </div>
+                
+                <div className="mb-8 mt-4">
+                  <h3 className="text-3xl font-bold mb-3 gradient-text">Property Development Bootcamp</h3>
+                  <p className="text-white/80 text-lg mb-2">
+                    🏢 Melbourne CBD (City Venue)
+                  </p>
+                  <p className="text-white/70">
+                    Your complete pathway from beginner to development-ready professional
+                  </p>
+                </div>
+
+                <div className="mb-10 bg-white/5 p-6 rounded-xl border border-white/20">
+                  <div className="flex items-baseline gap-3 mb-2">
+                    <span className="text-white/50 line-through text-2xl">RRP: $1,999</span>
+                  </div>
+                  <div className="flex items-baseline gap-3 mb-3">
+                    <span className="text-5xl font-bold gradient-text">$499</span>
+                    <span className="text-white/70 text-xl">one-time payment</span>
+                  </div>
+                  <div className="bg-gradient-to-r from-purple-500/20 to-pink-500/20 px-4 py-2 rounded-lg inline-block">
+                    <span className="text-white font-semibold">💰 Save $1,500 (75% OFF)</span>
+                  </div>
+                </div>
+
+                <div className="mb-8">
+                  <h4 className="text-xl font-bold mb-4 text-white">What You Get:</h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-3">
+                    <div className="flex items-start gap-3">
+                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                        <FaCheck className="text-green-400 text-lg" />
+                      </div>
+                      <span className="text-white/90">Full AI Platform Access</span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                        <FaCheck className="text-green-400 text-lg" />
+                      </div>
+                      <span className="text-white/90">2 x Industry Expert Speakers</span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                        <FaCheck className="text-green-400 text-lg" />
+                      </div>
+                      <span className="text-white/90">Advanced Scenarios & Simulations</span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                        <FaCheck className="text-green-400 text-lg" />
+                      </div>
+                      <span className="text-white/90">Lifetime Course Content Access</span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                        <FaCheck className="text-green-400 text-lg" />
+                      </div>
+                      <span className="text-white/90">Personalised Property Mentoring</span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                        <FaCheck className="text-green-400 text-lg" />
+                      </div>
+                      <span className="text-white/90">1-2 x Interactive Site Walks</span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                        <FaCheck className="text-green-400 text-lg" />
+                      </div>
+                      <span className="text-white/90">Financial Modelling Tools</span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
+                        <FaCheck className="text-green-400 text-lg" />
+                      </div>
+                      <span className="text-white/90">Community Forum & Networking</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/30 p-6 rounded-xl mb-8 border border-purple-500/30">
+                  <h4 className="text-lg font-bold mb-3 text-white">📍 Event Details:</h4>
+                  <div className="space-y-2 text-white/80">
+                    <p><strong className="text-white">Location:</strong> Melbourne, City (Premium Venue)</p>
+                    <p><strong className="text-white">Commencing:</strong> Early 2026</p>
+                    <p><strong className="text-white">Format:</strong> In-person session + Online platform access (hybrid)</p>
+                    <p className="text-yellow-400 font-semibold mt-3">⚡ Only 15 spots available at this price!</p>
+                  </div>
+                </div>
+
+                <a
+                  href="#stay-updated"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document
+                      .querySelector("#stay-updated")
+                      ?.scrollIntoView({ behavior: "smooth" });
+                  }}
+                  className="neon-button bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-5 rounded-button text-center font-bold text-xl whitespace-nowrap block shadow-lg transform hover:scale-105 transition-all"
+                >
+                  🎯 Secure Your Spot Now - Save $1,500!
+                </a>
+                
+                <p className="text-center text-white/60 text-sm mt-4">
+                  ✓ No credit card required to reserve • ✓ 7-day money-back guarantee
+                </p>
+              </div>
+            </div>
+            <div className="mt-12 text-center">
+              <p className="text-white/70 mb-4">
+                Exclusive early bird offer - Limited spots available!
+              </p>
+              <div className="flex flex-wrap justify-center gap-6">
+                <div className="flex items-center gap-2">
+                  <div className="w-6 h-6 flex items-center justify-center">
+                    <RiSecurePaymentLine className="text-green-400" />
+                  </div>
+                  <span className="text-white/70 text-sm">Secure Payment</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-6 h-6 flex items-center justify-center">
+                    <RiRefund2Line className="text-green-400" />
+                  </div>
+                  <span className="text-white/70 text-sm">
+                    7-Day Money Back
+                  </span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-6 h-6 flex items-center justify-center">
+                    <RiCustomerService2Line className="text-green-400" />
+                  </div>
+                  <span className="text-white/70 text-sm">24/7 Support</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Target Audience Section */}
         <section className="py-16 bg-black">
           <div className="container mx-auto px-6">
@@ -840,169 +1004,6 @@ const LandingPage = () => {
               </div>
             </div>
             END COMMENTED OUT - Stats Section */}
-          </div>
-        </section>
-        {/* Pricing Section */}
-        <section
-          id="pricing"
-          className="py-20 bg-gradient-to-b from-black to-black/95 relative overflow-hidden"
-        >
-          <div className="absolute top-0 left-0 w-full h-full">
-            <div className="w-full h-full grid-bg opacity-20"></div>
-          </div>
-          <div className="container mx-auto px-6 relative z-10">
-            <div className="text-center max-w-3xl mx-auto mb-16">
-              <h2 className="hero-title text-4xl font-bold mb-4">
-                Early Bird Special - <span className="gradient-text"> Limited Time Offer</span>
-              </h2>
-              <p className="text-white/70 text-lg">
-                Join us in Melbourne and kickstart your property development career with this exclusive offer!
-              </p>
-            </div>
-            {/* COMMENTED OUT - OLD PRICING TIERS
-            <div className="flex flex-col lg:flex-row gap-8 max-w-5xl mx-auto">
-              Explorer ($29/month), Developer ($79/month), Enterprise (Custom) plans
-            END COMMENTED OUT OLD PRICING */}
-
-            {/* NEW SINGLE PRICING TIER */}
-            <div className="flex justify-center max-w-4xl mx-auto">
-              <div className="developer-plan backdrop-blur-sm rounded-2xl p-10 border-2 border-purple-500/50 w-full relative overflow-hidden shadow-2xl">
-                <div className="absolute top-6 right-6 bg-gradient-to-r from-red-500 to-orange-500 text-white text-sm font-bold px-4 py-2 rounded-full shadow-lg animate-pulse">
-                  75% OFF - LIMITED SPOTS!
-                </div>
-                
-                <div className="mb-8 mt-4">
-                  <h3 className="text-3xl font-bold mb-3 gradient-text">Property Development Bootcamp</h3>
-                  <p className="text-white/80 text-lg mb-2">
-                    🏢 Melbourne CBD (City Venue)
-                  </p>
-                  <p className="text-white/70">
-                    Your complete pathway from beginner to development-ready professional
-                  </p>
-                </div>
-
-                <div className="mb-10 bg-white/5 p-6 rounded-xl border border-white/20">
-                  <div className="flex items-baseline gap-3 mb-2">
-                    <span className="text-white/50 line-through text-2xl">RRP: $1,999</span>
-                  </div>
-                  <div className="flex items-baseline gap-3 mb-3">
-                    <span className="text-5xl font-bold gradient-text">$499</span>
-                    <span className="text-white/70 text-xl">one-time payment</span>
-                  </div>
-                  <div className="bg-gradient-to-r from-purple-500/20 to-pink-500/20 px-4 py-2 rounded-lg inline-block">
-                    <span className="text-white font-semibold">💰 Save $1,500 (75% OFF)</span>
-                  </div>
-                </div>
-
-                <div className="mb-8">
-                  <h4 className="text-xl font-bold mb-4 text-white">What You Get:</h4>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-3">
-                    <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90">Full AI Platform Access</span>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90">2 x Industry Expert Speakers</span>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90">Advanced Scenarios & Simulations</span>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90">Lifetime Course Content Access</span>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90">Personalised Property Mentoring</span>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90">1-2 x Interactive Site Walks</span>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90">Financial Modelling Tools</span>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90">Community Forum & Networking</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/30 p-6 rounded-xl mb-8 border border-purple-500/30">
-                  <h4 className="text-lg font-bold mb-3 text-white">📍 Event Details:</h4>
-                  <div className="space-y-2 text-white/80">
-                    <p><strong className="text-white">Location:</strong> Melbourne, City (Premium Venue)</p>
-                    <p><strong className="text-white">Commencing:</strong> Early 2026</p>
-                    <p><strong className="text-white">Format:</strong> In-person session + Online platform access (hybrid)</p>
-                    <p className="text-yellow-400 font-semibold mt-3">⚡ Only 15 spots available at this price!</p>
-                  </div>
-                </div>
-
-                <a
-                  href="#stay-updated"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document
-                      .querySelector("#stay-updated")
-                      ?.scrollIntoView({ behavior: "smooth" });
-                  }}
-                  className="neon-button bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-5 rounded-button text-center font-bold text-xl whitespace-nowrap block shadow-lg transform hover:scale-105 transition-all"
-                >
-                  🎯 Secure Your Spot Now - Save $1,500!
-                </a>
-                
-                <p className="text-center text-white/60 text-sm mt-4">
-                  ✓ No credit card required to reserve • ✓ 7-day money-back guarantee
-                </p>
-              </div>
-            </div>
-            <div className="mt-12 text-center">
-              <p className="text-white/70 mb-4">
-                Exclusive early bird offer - Limited spots available!
-              </p>
-              <div className="flex flex-wrap justify-center gap-6">
-                <div className="flex items-center gap-2">
-                  <div className="w-6 h-6 flex items-center justify-center">
-                    <RiSecurePaymentLine className="text-green-400" />
-                  </div>
-                  <span className="text-white/70 text-sm">Secure Payment</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-6 h-6 flex items-center justify-center">
-                    <RiRefund2Line className="text-green-400" />
-                  </div>
-                  <span className="text-white/70 text-sm">
-                    7-Day Money Back
-                  </span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-6 h-6 flex items-center justify-center">
-                    <RiCustomerService2Line className="text-green-400" />
-                  </div>
-                  <span className="text-white/70 text-sm">24/7 Support</span>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
         {/* CTA Section */}

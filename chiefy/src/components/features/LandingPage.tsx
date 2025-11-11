@@ -162,10 +162,10 @@ const LandingPage = () => {
               </button>
               <a
                 href="https://chiefy-beta-app.adalo.com/online-education-app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all"
-                >
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all"
+              >
                 Download Chatbot
                 <span>↓</span>
               </a>
@@ -195,8 +195,7 @@ const LandingPage = () => {
           <div className="container mx-auto px-6 py-20 relative z-20">
             <div className="max-w-3xl">
               <h1 className="hero-title text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-                Get {" "}
-                <span className="gradient-text">Property Development</span>{" "}
+                Get <span className="gradient-text">Property Development</span>{" "}
                 Ready in 30 Days
               </h1>
               <p className="text-xl md:text-2xl text-white/80 mb-8">
@@ -215,8 +214,6 @@ const LandingPage = () => {
                 >
                   Join the Waitlist
                 </a>
-
-                
               </div>
 
               {/* COMMENTED OUT - Stats Section
@@ -256,10 +253,15 @@ const LandingPage = () => {
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto text-center">
               <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
-                Are you feeling lost or confused or don't know where to start with your career in property & construction? 
-                At <span className="gradient-text font-bold">Chiefy</span> we give you the tools you need to communicate 
-                across the <span className="text-purple-400 font-bold">100+ industry trades and professionals</span> so you 
-                can act with confidence from <span className="text-pink-400 font-bold">Day 1</span>.
+                Are you feeling lost or confused or don't know where to start
+                with your career in property & construction? At{" "}
+                <span className="gradient-text font-bold">Chiefy</span> we give
+                you the tools you need to communicate across the{" "}
+                <span className="text-purple-400 font-bold">
+                  100+ industry trades and professionals
+                </span>{" "}
+                so you can act with confidence from{" "}
+                <span className="text-pink-400 font-bold">Day 1</span>.
               </p>
             </div>
           </div>
@@ -276,10 +278,12 @@ const LandingPage = () => {
           <div className="container mx-auto px-6 relative z-10">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="hero-title text-4xl font-bold mb-4">
-                Early Bird Special - <span className="gradient-text"> Limited Time Offer</span>
+                Early Bird Special -{" "}
+                <span className="gradient-text"> Limited Time Offer</span>
               </h2>
               <p className="text-white/70 text-lg">
-                Join us in Melbourne and kickstart your property development career with this exclusive offer!
+                Join us in Melbourne and kickstart your property development
+                career with this exclusive offer!
               </p>
             </div>
             {/* COMMENTED OUT - OLD PRICING TIERS
@@ -293,91 +297,133 @@ const LandingPage = () => {
                 <div className="absolute top-6 right-6 bg-gradient-to-r from-red-500 to-orange-500 text-white text-sm font-bold px-4 py-2 rounded-full shadow-lg animate-pulse">
                   75% OFF - LIMITED SPOTS!
                 </div>
-                
+
                 <div className="mb-8 mt-4">
-                  <h3 className="text-3xl font-bold mb-3 gradient-text">Property Development Bootcamp</h3>
+                  <h3 className="text-3xl font-bold mb-3 gradient-text">
+                    Property Development Bootcamp
+                  </h3>
                   <p className="text-white/80 text-lg mb-2">
                     🏢 Melbourne CBD (City Venue)
                   </p>
                   <p className="text-white/70">
-                    Your complete pathway from beginner to development-ready professional
+                    Your complete pathway from beginner to development-ready
+                    professional
                   </p>
                 </div>
 
                 <div className="mb-10 bg-white/5 p-6 rounded-xl border border-white/20">
                   <div className="flex items-baseline gap-3 mb-2">
-                    <span className="text-white/50 line-through text-2xl">RRP: $1,999</span>
+                    <span className="text-white/50 line-through text-2xl">
+                      RRP: $1,999
+                    </span>
                   </div>
                   <div className="flex items-baseline gap-3 mb-3">
-                    <span className="text-5xl font-bold gradient-text">$499</span>
-                    <span className="text-white/70 text-xl">one-time payment</span>
+                    <span className="text-5xl font-bold gradient-text">
+                      $499
+                    </span>
+                    <span className="text-white/70 text-xl">
+                      one-time payment
+                    </span>
                   </div>
                   <div className="bg-gradient-to-r from-purple-500/20 to-pink-500/20 px-4 py-2 rounded-lg inline-block">
-                    <span className="text-white font-semibold">💰 Save $1,500 (75% OFF)</span>
+                    <span className="text-white font-semibold">
+                      💰 Save $1,500 (75% OFF)
+                    </span>
                   </div>
                 </div>
 
                 <div className="mb-8">
-                  <h4 className="text-xl font-bold mb-4 text-white">What You Get:</h4>
+                  <h4 className="text-xl font-bold mb-4 text-white">
+                    What You Get:
+                  </h4>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-3">
                     <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90">Full AI Platform Access</span>
+                      <span className="text-white/90">
+                        Full AI Platform Access
+                      </span>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90">2 x Industry Expert Speakers</span>
+                      <span className="text-white/90">
+                        2 x Industry Expert Speakers
+                      </span>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90">Advanced Scenarios & Simulations</span>
+                      <span className="text-white/90">
+                        Advanced Scenarios & Simulations
+                      </span>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90">Lifetime Course Content Access</span>
+                      <span className="text-white/90">
+                        Lifetime Course Content Access
+                      </span>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90">Personalised Property Mentoring</span>
+                      <span className="text-white/90">
+                        Personalised Property Mentoring
+                      </span>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90">1-2 x Interactive Site Walks</span>
+                      <span className="text-white/90">
+                        1-2 x Interactive Site Walks
+                      </span>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90">Financial Modelling Tools</span>
+                      <span className="text-white/90">
+                        Financial Modelling Tools
+                      </span>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90">Community Forum & Networking</span>
+                      <span className="text-white/90">
+                        Community Forum & Networking
+                      </span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/30 p-6 rounded-xl mb-8 border border-purple-500/30">
-                  <h4 className="text-lg font-bold mb-3 text-white">📍 Event Details:</h4>
+                  <h4 className="text-lg font-bold mb-3 text-white">
+                    📍 Event Details:
+                  </h4>
                   <div className="space-y-2 text-white/80">
-                    <p><strong className="text-white">Location:</strong> Melbourne, City (Premium Venue)</p>
-                    <p><strong className="text-white">Commencing:</strong> Early 2026</p>
-                    <p><strong className="text-white">Format:</strong> In-person session + Online platform access (hybrid)</p>
-                    <p className="text-yellow-400 font-semibold mt-3">⚡ Only 15 spots available at this price!</p>
+                    <p>
+                      <strong className="text-white">Location:</strong>{" "}
+                      Melbourne, City (Premium Venue)
+                    </p>
+                    <p>
+                      <strong className="text-white">Commencing:</strong> Early
+                      2026
+                    </p>
+                    <p>
+                      <strong className="text-white">Format:</strong> In-person
+                      session + Online platform access (hybrid)
+                    </p>
+                    <p className="text-yellow-400 font-semibold mt-3">
+                      ⚡ Only 15 spots available at this price!
+                    </p>
                   </div>
                 </div>
 
@@ -393,9 +439,10 @@ const LandingPage = () => {
                 >
                   🎯 Secure Your Spot Now - Save $1,500!
                 </a>
-                
+
                 <p className="text-center text-white/60 text-sm mt-4">
-                  ✓ No credit card required to reserve • ✓ 7-day money-back guarantee
+                  ✓ No credit card required to reserve • ✓ 7-day money-back
+                  guarantee
                 </p>
               </div>
             </div>
@@ -446,7 +493,8 @@ const LandingPage = () => {
                   University Students
                 </h3>
                 <p className="text-white/70 text-center">
-                  Launch your property development career with practical skills and industry connections
+                  Launch your property development career with practical skills
+                  and industry connections
                 </p>
               </div>
               <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 hover:border-purple-500/50 transition-all">
@@ -480,35 +528,49 @@ const LandingPage = () => {
           <div className="container mx-auto px-6">
             <div className="text-center max-w-4xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold mb-12">
-                Brought to you in <span className="gradient-text">collaboration</span> with...
+                Brought to you in{" "}
+                <span className="gradient-text">collaboration</span> with...
               </h2>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
                 <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">University of Sydney</p>
+                  <p className="text-white/70 font-semibold text-center">
+                    University of Sydney
+                  </p>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
                   <p className="text-white/70 font-semibold text-center">UTS</p>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">RMIT</p>
+                  <p className="text-white/70 font-semibold text-center">
+                    RMIT
+                  </p>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">University of Melbourne</p>
+                  <p className="text-white/70 font-semibold text-center">
+                    University of Melbourne
+                  </p>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">Bryant Alsop Arch</p>
+                  <p className="text-white/70 font-semibold text-center">
+                    Bryant Alsop Arch
+                  </p>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">UrbanCore</p>
+                  <p className="text-white/70 font-semibold text-center">
+                    UrbanCore
+                  </p>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">Stadiums Tasmania</p>
+                  <p className="text-white/70 font-semibold text-center">
+                    Stadiums Tasmania
+                  </p>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 w-full h-32 flex items-center justify-center hover:border-purple-500/50 transition-all">
-                  <p className="text-white/70 font-semibold text-center">LVL Group</p>
+                  <p className="text-white/70 font-semibold text-center">
+                    LVL Group
+                  </p>
                 </div>
               </div>
-              
             </div>
           </div>
         </section>
@@ -653,7 +715,8 @@ const LandingPage = () => {
           <div className="container mx-auto px-6 relative z-10">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="hero-title text-4xl font-bold mb-4">
-                Your 30-Day <span className="gradient-text">Path to Development Ready</span>
+                Your 30-Day{" "}
+                <span className="gradient-text">Path to Development Ready</span>
               </h2>
               <p className="text-white/70 text-lg">
                 Follow a structured path from industry novice to development
@@ -844,10 +907,10 @@ const LandingPage = () => {
           <div className="container mx-auto px-6 relative z-10">
             <div className="text-center max-w-4xl mx-auto">
               <h2 className="hero-title text-4xl font-bold mb-12">
-                Join the Waitlist and experience the{' '}
+                Join the Waitlist and experience the{" "}
                 <span className="gradient-text">Chiefy Way</span> with...
               </h2>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
                 {/* Feature 1 */}
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
@@ -1022,8 +1085,8 @@ const LandingPage = () => {
           <div className="container mx-auto px-6 relative z-10">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="hero-title text-4xl font-bold mb-4">
-
-                What are you waiting for? {" "} <span className="gradient-text"> Build your Future Today</span>
+                What are you waiting for?{" "}
+                <span className="gradient-text"> Build your Future Today</span>
               </h2>
               <p className="text-xl text-white/80 mb-8">
                 Join the next wave of property innovators with AI.
@@ -1395,7 +1458,7 @@ const LandingPage = () => {
               </div>
             </div> */}
             </div>
-            
+
             <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
               <p className="text-white/50 text-sm">
                 ©️ 2025 BuilderVerse. All rights reserved.

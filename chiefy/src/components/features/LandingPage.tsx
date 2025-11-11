@@ -450,7 +450,7 @@ const LandingPage = () => {
               </div>
               <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 hover:border-purple-500/50 transition-all">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-6 mx-auto">
-                  <i className="ri-footprint-line text-3xl text-purple-400"></i>
+                  <i className="ri-hammer-line text-3xl text-purple-400"></i>
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-3 text-center">
                   Tradesman
@@ -461,7 +461,7 @@ const LandingPage = () => {
               </div>
               <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 hover:border-purple-500/50 transition-all">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-6 mx-auto">
-                  <i className="ri-briefcase-line text-3xl text-purple-400"></i>
+                  <i className="ri-tie-line text-3xl text-purple-400"></i>
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-3 text-center">
                   Industry Professionals

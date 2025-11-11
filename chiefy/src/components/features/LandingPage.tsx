@@ -895,81 +895,57 @@ const LandingPage = () => {
                 </div>
 
                 <div className="mb-8">
-                  <h4 className="text-xl font-bold mb-4 text-white">What You Get - Incredible Value:</h4>
-                  <ul className="space-y-3">
-                    <li className="flex items-start gap-3">
+                  <h4 className="text-xl font-bold mb-4 text-white">What You Get:</h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-3">
+                    <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90"><strong className="text-white">Full platform access</strong> - All Explorer & Developer features included</span>
-                    </li>
-                    <li className="flex items-start gap-3">
+                      <span className="text-white/90">Full AI Platform Access</span>
+                    </div>
+                    <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90"><strong className="text-white">AI Development Coach</strong> - Personalized mentoring & feedback</span>
-                    </li>
-                    <li className="flex items-start gap-3">
+                      <span className="text-white/90">2 x Industry Expert Speakers</span>
+                    </div>
+                    <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90"><strong className="text-white">Advanced development simulations</strong> - Real market scenarios</span>
-                    </li>
-                    <li className="flex items-start gap-3">
+                      <span className="text-white/90">Advanced Scenarios & Simulations</span>
+                    </div>
+                    <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90"><strong className="text-white">Real-time market data access</strong> - Live property insights</span>
-                    </li>
-                    <li className="flex items-start gap-3">
+                      <span className="text-white/90">Lifetime Course Content Access</span>
+                    </div>
+                    <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90"><strong className="text-white">Financial modeling tools</strong> - Professional-grade analytics</span>
-                    </li>
-                    <li className="flex items-start gap-3">
+                      <span className="text-white/90">Personalised Property Mentoring</span>
+                    </div>
+                    <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90"><strong className="text-white">6 x 1-on-1 mentoring sessions</strong> - Direct expert guidance (Worth $900 alone!)</span>
-                    </li>
-                    <li className="flex items-start gap-3">
+                      <span className="text-white/90">1-2 x Interactive Site Walks</span>
+                    </div>
+                    <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90"><strong className="text-white">Industry certification preparation</strong> - Get qualified faster</span>
-                    </li>
-                    <li className="flex items-start gap-3">
+                      <span className="text-white/90">Financial Modelling Tools</span>
+                    </div>
+                    <div className="flex items-start gap-3">
                       <div className="w-6 h-6 flex items-center justify-center mt-0.5">
                         <FaCheck className="text-green-400 text-lg" />
                       </div>
-                      <span className="text-white/90"><strong className="text-white">Community forum & networking</strong> - Connect with peers & experts</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">Monthly industry webinars</strong> - Stay ahead of trends</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">Custom learning paths</strong> - Tailored to your goals</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">Progress tracking dashboard</strong> - Monitor your growth</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-6 h-6 flex items-center justify-center mt-0.5">
-                        <FaCheck className="text-green-400 text-lg" />
-                      </div>
-                      <span className="text-white/90"><strong className="text-white">Lifetime access to course materials</strong> - Learn at your own pace forever</span>
-                    </li>
-                  </ul>
+                      <span className="text-white/90">Community Forum & Networking</span>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/30 p-6 rounded-xl mb-8 border border-purple-500/30">

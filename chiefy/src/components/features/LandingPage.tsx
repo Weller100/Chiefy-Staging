@@ -1007,7 +1007,7 @@ const LandingPage = () => {
                 </a>
                 
                 <p className="text-center text-white/60 text-sm mt-4">
-                  ✓ No credit card required to reserve • ✓ 30-day money-back guarantee
+                  ✓ No credit card required to reserve • ✓ 7-day money-back guarantee
                 </p>
               </div>
             </div>
@@ -1027,7 +1027,7 @@ const LandingPage = () => {
                     <RiRefund2Line className="text-green-400" />
                   </div>
                   <span className="text-white/70 text-sm">
-                    30-Day Money Back
+                    7-Day Money Back
                   </span>
                 </div>
                 <div className="flex items-center gap-2">
@@ -1419,7 +1419,6 @@ const LandingPage = () => {
                 </ul>
               </div>
             </div> */}
-            </div>
             <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
               <p className="text-white/50 text-sm">
                 ©️ 2025 BuilderVerse. All rights reserved.

@@ -27,6 +27,7 @@ import {
   RiTwitterXFill,
   RiInstagramFill,
   RiYoutubeFill,
+  RiFacebookFill,
 } from "react-icons/ri";
 
 import { BsClock } from "react-icons/bs";
@@ -1232,28 +1233,36 @@ const LandingPage = () => {
                 </p>
                 <div className="flex gap-4">
                   <Link
-                    href="#"
+                    href="https://www.linkedin.com/company/chiefy-ai"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
                   >
                     <RiLinkedinFill />
                   </Link>
                   <Link
-                    href="#"
-                    className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
-                  >
-                    <RiTwitterXFill />
-                  </Link>
-                  <Link
-                    href="#"
+                    href="https://www.instagram.com/chiefy.ai/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
                   >
                     <RiInstagramFill />
                   </Link>
                   <Link
-                    href="#"
+                    href="https://www.youtube.com/@Chiefy.channel"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
                   >
                     <RiYoutubeFill />
+                  </Link>
+                  <Link
+                    href="https://www.facebook.com/profile.php?id=61580455533481&sk=about"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
+                  >
+                    <RiFacebookFill />
                   </Link>
                 </div>
               </div>

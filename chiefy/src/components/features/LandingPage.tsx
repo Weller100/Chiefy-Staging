@@ -193,7 +193,7 @@ const LandingPage = () => {
 
           {/* Content */}
           <div className="container mx-auto px-6 py-20 relative z-20">
-            <div className="max-w-3xl">
+            <div className="max-w-3xl mx-auto text-center">
               <h1 className="hero-title text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
                 Get <span className="gradient-text">Property Development</span>{" "}
                 Ready in 30 Days
@@ -201,7 +201,7 @@ const LandingPage = () => {
               <p className="text-xl md:text-2xl text-white/80 mb-8">
                 Practical, fun & new-age, beginner-friendly coaching.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 mb-12">
+              <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center">
                 <a
                   href="#stay-updated"
                   onClick={(e) => {

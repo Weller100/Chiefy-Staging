@@ -272,7 +272,7 @@ const LandingPage = () => {
                 Who is <span className="gradient-text">Chiefy For?</span>
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 hover:border-purple-500/50 transition-all">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-6 mx-auto">
                   <i className="ri-graduation-cap-line text-3xl text-purple-400"></i>
@@ -286,13 +286,24 @@ const LandingPage = () => {
               </div>
               <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 hover:border-purple-500/50 transition-all">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-6 mx-auto">
-                  <i className="ri-hammer-line text-3xl text-purple-400"></i>
+                  <i className="ri-footprint-line text-3xl text-purple-400"></i>
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-3 text-center">
-                  Trades Professionals
+                  Tradesman
                 </h3>
                 <p className="text-white/70 text-center">
-                  Expand your expertise and transition into property development management
+                  Find out more about your construction peers
+                </p>
+              </div>
+              <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 hover:border-purple-500/50 transition-all">
+                <div className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-6 mx-auto">
+                  <i className="ri-briefcase-line text-3xl text-purple-400"></i>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-3 text-center">
+                  Industry Professionals
+                </h3>
+                <p className="text-white/70 text-center">
+                  Expand your expertise in Property Development
                 </p>
               </div>
             </div>

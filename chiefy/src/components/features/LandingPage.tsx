@@ -351,9 +351,9 @@ const LandingPage = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="flex flex-wrap justify-center gap-8 max-w-6xl mx-auto">
               {/* Feature 1 - AI Development Coach */}
-              <div className="feature-card bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 relative overflow-hidden">
+              <div className="feature-card bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 relative overflow-hidden w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.33rem)]">
                 <div className="absolute top-0 right-0 w-20 h-20 bg-purple-500/5 rounded-full blur-xl"></div>
                 <div className="w-14 h-14 bg-purple-500/10 rounded-lg flex items-center justify-center mb-6">
                   <FaRegCircle className="text-purple-500 text-2xl" />
@@ -375,7 +375,7 @@ const LandingPage = () => {
               </div>
 
               {/* Feature 2 - Development Simulator */}
-              <div className="feature-card bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 relative overflow-hidden">
+              <div className="feature-card bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 relative overflow-hidden w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.33rem)]">
                 <div className="absolute top-0 right-0 w-20 h-20 bg-red-400/5 rounded-full blur-xl"></div>
                 <div className="w-14 h-14 bg-red-400/10 rounded-lg flex items-center justify-center mb-6">
                   <RiGamepadLine className="text-red-400 text-2xl" />
@@ -398,7 +398,7 @@ const LandingPage = () => {
               </div>
 
               {/* Feature 3 - Achievement System */}
-              <div className="feature-card bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 relative overflow-hidden">
+              <div className="feature-card bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 relative overflow-hidden w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.33rem)]">
                 <div className="absolute top-0 right-0 w-20 h-20 bg-purple-500/5 rounded-full blur-xl"></div>
                 <div className="w-14 h-14 bg-purple-500/10 rounded-lg flex items-center justify-center mb-6">
                   <RiVipDiamondLine className="text-purple-500 text-2xl" />
@@ -420,7 +420,7 @@ const LandingPage = () => {
               </div>
 
               {/* Feature 4 - Industry Network */}
-              <div className="feature-card bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 relative overflow-hidden">
+              <div className="feature-card bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 relative overflow-hidden w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.33rem)]">
                 <div className="absolute top-0 right-0 w-20 h-20 bg-red-400/5 rounded-full blur-xl"></div>
                 <div className="w-14 h-14 bg-red-400/10 rounded-lg flex items-center justify-center mb-6">
                   <RiTeamLine className="text-red-400 text-2xl" />
@@ -441,30 +441,8 @@ const LandingPage = () => {
                 </div>
               </div>
 
-              {/* Feature 5 - Data Analytics */}
-              <div className="feature-card bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-20 h-20 bg-purple-500/5 rounded-full blur-xl"></div>
-                <div className="w-14 h-14 bg-purple-500/10 rounded-lg flex items-center justify-center mb-6">
-                  <BiBarChartSquare className="text-purple-500 text-2xl" />
-                </div>
-                <h3 className="text-xl font-bold mb-3 text-white">
-                  Project Personalisation
-                </h3>
-                <p className="text-white/70 mb-4">
-                  Access real-time market data and AI-powered insights to inform
-                  your staff management and training decision.
-                </p>
-                <div
-                  className="flex items-center gap-2 text-purple-500 cursor-pointer hover:text-purple-400 transition-colors"
-                  onClick={scrollToStayUpdated}
-                >
-                  <span>Learn more</span>
-                  <span>→</span>
-                </div>
-              </div>
-
-              {/* Feature 6 - Project Personalisation */}
-              <div className="feature-card bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 relative overflow-hidden">
+              {/* Feature 5 - Project Personalisation */}
+              <div className="feature-card bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10 relative overflow-hidden w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.33rem)]">
                 <div className="absolute top-0 right-0 w-20 h-20 bg-red-400/5 rounded-full blur-xl"></div>
                 <div className="w-14 h-14 bg-red-400/10 rounded-lg flex items-center justify-center mb-6">
                   <FaRegCircle className="text-red-400 text-2xl" />
@@ -1419,6 +1397,8 @@ const LandingPage = () => {
                 </ul>
               </div>
             </div> */}
+            </div>
+            
             <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
               <p className="text-white/50 text-sm">
                 ©️ 2025 BuilderVerse. All rights reserved.

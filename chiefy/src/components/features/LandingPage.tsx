@@ -1311,63 +1311,62 @@ const LandingPage = () => {
         {/* Footer */}
         <footer className="py-16 bg-black border-t border-white/10">
           <div className="container mx-auto px-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
-              <div className="lg:col-span-2">
-                <Link href="#" className="flex items-center gap-2 mb-4">
-                  <Image
-                    src="https://static.readdy.ai/image/604526b099075072f9fc122e55328024/b41ffca8773352ad86add0ffd6c25b78.png"
-                    alt="Chiefy Logo"
-                    width={60}
-                    height={60}
-                  />
-                  <Image
-                    src="/images/Chiefy upscale logo.png"
-                    alt="Chiefy Logo"
-                    width={280}
-                    height={200}
-                    className="h-24 w-auto"
-                  />
+            <div className="flex flex-col items-center text-center">
+              <Link href="#" className="flex items-center gap-2 mb-4 justify-center">
+                <Image
+                  src="https://static.readdy.ai/image/604526b099075072f9fc122e55328024/b41ffca8773352ad86add0ffd6c25b78.png"
+                  alt="Chiefy Logo"
+                  width={60}
+                  height={60}
+                />
+                <Image
+                  src="/images/Chiefy upscale logo.png"
+                  alt="Chiefy Logo"
+                  width={280}
+                  height={200}
+                  className="h-24 w-auto"
+                />
+              </Link>
+              <p className="text-white/70 mb-6 max-w-2xl">
+                AI-powered property development mentoring platform that makes
+                learning fun and practical for industry entrants.
+              </p>
+              <div className="flex gap-4 justify-center">
+                <Link
+                  href="https://www.linkedin.com/company/chiefy-ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
+                >
+                  <RiLinkedinFill />
                 </Link>
-                <p className="text-white/70 mb-6">
-                  AI-powered property development mentoring platform that makes
-                  learning fun and practical for industry entrants.
-                </p>
-                <div className="flex gap-4">
-                  <Link
-                    href="https://www.linkedin.com/company/chiefy-ai"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
-                  >
-                    <RiLinkedinFill />
-                  </Link>
-                  <Link
-                    href="https://www.instagram.com/chiefy.ai/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
-                  >
-                    <RiInstagramFill />
-                  </Link>
-                  <Link
-                    href="https://www.youtube.com/@Chiefy.channel"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
-                  >
-                    <RiYoutubeFill />
-                  </Link>
-                  <Link
-                    href="https://www.facebook.com/profile.php?id=61580455533481&sk=about"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
-                  >
-                    <RiFacebookFill />
-                  </Link>
-                </div>
+                <Link
+                  href="https://www.instagram.com/chiefy.ai/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
+                >
+                  <RiInstagramFill />
+                </Link>
+                <Link
+                  href="https://www.youtube.com/@Chiefy.channel"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
+                >
+                  <RiYoutubeFill />
+                </Link>
+                <Link
+                  href="https://www.facebook.com/profile.php?id=61580455533481&sk=about"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
+                >
+                  <RiFacebookFill />
+                </Link>
               </div>
-              {/*<div>
+            </div>
+            {/*<div>
                 <h4 className="font-bold text-lg mb-4">Platform</h4>
                 <ul className="space-y-3">
                   <li>
@@ -1495,20 +1494,11 @@ const LandingPage = () => {
                 </ul>
               </div>
             </div> */}
-            </div>
 
-            <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-              <p className="text-white/50 text-sm">
+            <div className="mt-16 pt-8 border-t border-white/10 flex flex-col items-center justify-center gap-4">
+              <p className="text-white/50 text-sm text-center">
                 ©️ 2025 BuilderVerse. All rights reserved.
               </p>
-              <div className="flex gap-6">
-                <div className="flex items-center gap-2 text-white/50">
-                  <i className="ri-visa-line ri-lg"></i>
-                  <i className="ri-mastercard-line ri-lg"></i>
-                  <i className="ri-paypal-line ri-lg"></i>
-                  <i className="ri-apple-fill ri-lg"></i>
-                </div>
-              </div>
             </div>
           </div>
         </footer>

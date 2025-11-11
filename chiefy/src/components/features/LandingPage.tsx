@@ -1059,15 +1059,14 @@ const LandingPage = () => {
                 What are you waiting for? {" "} <span className="gradient-text"> Build your Future Today</span>
               </h2>
               <p className="text-xl text-white/80 mb-8">
-                Join thousands of professionals who are transforming their
-                careers with our AI-powered property development platform.
+                Join the next wave of property innovators with AI.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
                 <a
                   href="#"
                   className="neon-button bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-button text-center font-bold whitespace-nowrap"
                 >
-                  Join To
+                  Join Today
                 </a>
                 <a
                   href="#"
@@ -1076,12 +1075,12 @@ const LandingPage = () => {
                   <FiCalendar className="text-xl" /> Watch Demo
                 </a>
               </div>
-              <div className="flex flex-wrap justify-center gap-8">
+              {/*<div className="flex flex-wrap justify-center gap-8">
                 <span>
                   {" "}
                   Join our many active users, companies and institutions today!
                 </span>
-              </div>
+              </div>*/}
             </div>
           </div>
         </section>
@@ -1292,7 +1291,7 @@ const LandingPage = () => {
                   </Link>
                 </div>
               </div>
-              <div>
+              {/*<div>
                 <h4 className="font-bold text-lg mb-4">Platform</h4>
                 <ul className="space-y-3">
                   <li>
@@ -1419,6 +1418,7 @@ const LandingPage = () => {
                   </li>
                 </ul>
               </div>
+            </div> */}
             </div>
             <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
               <p className="text-white/50 text-sm">

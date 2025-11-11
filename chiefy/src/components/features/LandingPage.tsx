@@ -214,6 +214,12 @@ const LandingPage = () => {
                 >
                   Join the Waitlist
                 </a>
+                <a
+                  href="#"
+                  className="bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-button text-center font-bold whitespace-nowrap border border-white/30 transition-all backdrop-blur-sm"
+                >
+                  Get Free Ebook
+                </a>
               </div>
 
               {/* COMMENTED OUT - Stats Section

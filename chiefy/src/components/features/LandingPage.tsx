@@ -173,7 +173,7 @@ const LandingPage = () => {
           </div>
         </nav>
         {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-black">
+        <section className="relative min-h-screen flex items-center pt-32 overflow-hidden bg-black">
           {/* Background Image */}
           <div
             className="absolute inset-0 z-0"

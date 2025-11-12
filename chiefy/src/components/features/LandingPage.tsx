@@ -201,18 +201,6 @@ const LandingPage = () => {
               <p className="text-xl md:text-2xl text-white/80 mb-8">
                 Practical, fun & new-age, beginner-friendly coaching.
               </p>
-              <div className="max-w-4xl mx-auto mb-8">
-                <div className="flex items-center justify-center gap-4 mb-4">
-                  <div className="w-2 h-2 rounded-full bg-white/60"></div>
-                  <p className="text-white/70 text-sm md:text-base uppercase tracking-wider font-medium text-center">
-                    Are you feeling lost or confused or don't know where to start with your career in property & construction?
-                  </p>
-                  <div className="w-2 h-2 rounded-full bg-white/60"></div>
-                </div>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white text-center leading-tight">
-                  At Chiefy we give you the tools you need to communicate across the 100+ industry trades and professionals so you can act with confidence from Day 1.
-                </h2>
-              </div>
               <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center">
                 <a
                   href="#stay-updated"

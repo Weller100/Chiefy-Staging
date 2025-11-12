@@ -211,7 +211,7 @@ const LandingPage = () => {
                   <div className="w-2 h-2 rounded-full bg-white/60 flex-shrink-0"></div>
                 </div>
                 <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-white text-center leading-tight">
-                  At Chiefy we give you the tools you need to communicate across the 100+ industry trades and professionals so you can act with confidence from Day 1.
+                  At <span className="gradient-text">Chiefy</span> we give you the tools you need to communicate across the <span className="gradient-text">100+ industry trades and professionals</span> so you can act with confidence from <span className="gradient-text">Day 1</span>.
                 </h2>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center">

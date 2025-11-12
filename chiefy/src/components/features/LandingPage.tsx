@@ -40,6 +40,7 @@ import {
   FaCheck,
 } from "react-icons/fa";
 import { BiBarChartSquare } from "react-icons/bi";
+import { GiBootStomp } from "react-icons/gi";
 import ChatBot from "./ChatBot";
 import LoginModal from "./LoginModal";
 
@@ -517,7 +518,7 @@ const LandingPage = () => {
               </div>
               <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 hover:border-purple-500/50 transition-all">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-6 mx-auto">
-                  <i className="ri-hammer-line text-3xl text-purple-400"></i>
+                  <GiBootStomp className="text-3xl text-purple-400" />
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-3 text-center">
                   Tradesman

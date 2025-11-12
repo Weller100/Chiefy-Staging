@@ -211,7 +211,7 @@ const LandingPage = () => {
                   <div className="w-2 h-2 rounded-full bg-white/60 flex-shrink-0"></div>
                 </div>
                 <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-white text-center leading-tight">
-                  At <span className="gradient-text">Chiefy</span> we give you the tools you need to communicate across the <span className="gradient-text">100+ industry trades and professionals</span> so you can act with confidence from <span className="gradient-text">Day 1</span>.
+                  At <span className="gradient-text">Chiefy</span> we give you the tools you need to communicate across the <span className="gradient-text">100+ industry trades and professionals</span> so you can act with confidence from <span className="gradient-text">confidence</span> from Day 1.
                 </h2>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center">
@@ -271,17 +271,7 @@ const LandingPage = () => {
         <section className="py-16 bg-gradient-to-b from-black to-black/95">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto text-center">
-              <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
-                Are you feeling lost or confused or don't know where to start
-                with your career in property & construction? At{" "}
-                <span className="gradient-text font-bold">Chiefy</span> we give
-                you the tools you need to communicate across the{" "}
-                <span className="text-purple-400 font-bold">
-                  100+ industry trades and professionals
-                </span>{" "}
-                so you can act with confidence from{" "}
-                <span className="text-pink-400 font-bold">Day 1</span>.
-              </p>
+              
             </div>
           </div>
         </section>

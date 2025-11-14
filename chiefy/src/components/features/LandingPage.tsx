@@ -1316,12 +1316,7 @@ const LandingPage = () => {
           <div className="container mx-auto px-6">
             <div className="flex flex-col items-center text-center">
               <Link href="#" className="flex items-center gap-2 mb-4 justify-center">
-                <Image
-                  src="https://static.readdy.ai/image/604526b099075072f9fc122e55328024/b41ffca8773352ad86add0ffd6c25b78.png"
-                  alt="Chiefy Logo"
-                  width={60}
-                  height={60}
-                />
+                
                 <Image
                   src="/images/Chiefy upscale logo.png"
                   alt="Chiefy Logo"

@@ -100,7 +100,7 @@ const LandingPage = () => {
                 alt="Chiefy.AI"
                 width={280}
                 height={200}
-                className="h-24 w-auto"
+                className="h-14 w-auto"
                 priority
               />
             </Link>

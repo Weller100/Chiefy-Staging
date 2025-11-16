@@ -1,12 +1,15 @@
-import { RefObject } from 'react';
-import Image from 'next/image';
+import { RefObject } from "react";
+import Image from "next/image";
 
 interface VideoScreenProps {
   setCurrentScreen: (screen: string) => void;
   videoRef: RefObject<HTMLVideoElement>;
 }
 
-export const VideoScreen = ({ setCurrentScreen, videoRef }: VideoScreenProps) => (
+export const VideoScreen = ({
+  setCurrentScreen,
+  videoRef,
+}: VideoScreenProps) => (
   <div className="min-h-screen bg-gradient-to-b from-pink-400 via-purple-500 to-purple-800 py-4 sm:py-6 md:py-8 lg:py-12">
     {/* Video Container */}
     <div className="w-full mx-auto mb-4 sm:mb-6 md:mb-8">
@@ -25,7 +28,7 @@ export const VideoScreen = ({ setCurrentScreen, videoRef }: VideoScreenProps) =>
         </video>
         {/* Skip button spanning full width at bottom of video */}
         <div className="absolute bottom-0 left-0 right-0">
-          <button 
+          <button
             onClick={() => setCurrentScreen("landing")}
             className="w-full bg-gray-500 hover:bg-gray-600 text-white py-2 sm:py-2.5 md:py-3 font-medium text-xs sm:text-sm md:text-base transition-colors duration-200"
           >
@@ -47,12 +50,13 @@ export const VideoScreen = ({ setCurrentScreen, videoRef }: VideoScreenProps) =>
       </p>*/}
       <div className="text-center px-4">
         <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-bold gradient-text leading-relaxed">
-          "Unlock the property development world from your pocket — anytime, anywhere with Chiefy."
+          "Unlock the property development world from your pocket — anytime,
+          anywhere with Chiefy."
         </p>
       </div>
       <div className="flex justify-center mb-8">
         <Image
-          src="/images/chiefy-logo.png"
+          src="/images/Chiefy upscale logo.png"
           alt="Chiefy Logo"
           width={300}
           height={100}

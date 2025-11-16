@@ -956,14 +956,8 @@ const LandingPage = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
                 {/* Feature 1 */}
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
-                  <div className="flex justify-center mb-4">
-                    <Image
-                      src="/images/Exposure-to-Industry-Experts-Networks.png"
-                      alt="Exposure to Industry Experts and Networks"
-                      width={100}
-                      height={100}
-                      className="w-24 h-24 object-contain"
-                    />
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-4 mx-auto">
+                    <i className="ri-team-line text-2xl text-purple-400"></i>
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">
                     Exposure to Industry Experts and Networks
@@ -972,14 +966,8 @@ const LandingPage = () => {
 
                 {/* Feature 2 */}
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
-                  <div className="flex justify-center mb-4">
-                    <Image
-                      src="/images/Relatable-Lessons-Real-Life-Scenarios.png"
-                      alt="Relatable Lessons & Real-life Scenarios"
-                      width={100}
-                      height={100}
-                      className="w-24 h-24 object-contain"
-                    />
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-4 mx-auto">
+                    <i className="ri-book-open-line text-2xl text-purple-400"></i>
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">
                     Relatable Lessons & Real-life Scenarios
@@ -988,14 +976,8 @@ const LandingPage = () => {
 
                 {/* Feature 3 */}
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
-                  <div className="flex justify-center mb-4">
-                    <Image
-                      src="/images/site-visit.png"
-                      alt="Site Visits"
-                      width={100}
-                      height={100}
-                      className="w-24 h-24 object-contain"
-                    />
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-4 mx-auto">
+                    <i className="ri-building-line text-2xl text-purple-400"></i>
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">
                     Site Visit(s)
@@ -1004,14 +986,8 @@ const LandingPage = () => {
 
                 {/* Feature 4 */}
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
-                  <div className="flex justify-center mb-4">
-                    <Image
-                      src="/images/guest-speaker.png"
-                      alt="Guest Speakers"
-                      width={100}
-                      height={100}
-                      className="w-24 h-24 object-contain"
-                    />
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-4 mx-auto">
+                    <i className="ri-mic-line text-2xl text-purple-400"></i>
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">
                     Guest Speakers
@@ -1020,14 +996,8 @@ const LandingPage = () => {
 
                 {/* Feature 5 */}
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
-                  <div className="flex justify-center mb-4">
-                    <Image
-                      src="/images/innovative-training tools.png"
-                      alt="Innovative Training Tools"
-                      width={100}
-                      height={100}
-                      className="w-24 h-24 object-contain"
-                    />
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-4 mx-auto">
+                    <i className="ri-tools-line text-2xl text-purple-400"></i>
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">
                     Innovative Training Tools
@@ -1036,14 +1006,8 @@ const LandingPage = () => {
 
                 {/* Feature 6 */}
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
-                  <div className="flex justify-center mb-4">
-                    <Image
-                      src="/images/merchandise.png"
-                      alt="Limited Edition Chiefy.ai Merchandise"
-                      width={100}
-                      height={100}
-                      className="w-24 h-24 object-contain"
-                    />
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-4 mx-auto">
+                    <i className="ri-shopping-bag-line text-2xl text-purple-400"></i>
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">
                     Limited Edition Chiefy.ai Merchandise

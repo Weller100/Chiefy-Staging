@@ -1,4 +1,5 @@
 import { RefObject } from 'react';
+import Image from 'next/image';
 
 interface VideoScreenProps {
   setCurrentScreen: (screen: string) => void;
@@ -48,6 +49,15 @@ export const VideoScreen = ({ setCurrentScreen, videoRef }: VideoScreenProps) =>
         <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-bold gradient-text leading-relaxed">
           "Unlock the property development world from your pocket — anytime, anywhere with Chiefy."
         </p>
+      </div>
+      <div className="flex justify-center mb-8">
+        <Image
+          src="/images/chiefy-logo.png"
+          alt="Chiefy Logo"
+          width={300}
+          height={100}
+          className="h-24 w-auto"
+        />
       </div>
     </div>
     {/* Action Buttons */}

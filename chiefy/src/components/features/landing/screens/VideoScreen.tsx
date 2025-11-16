@@ -52,7 +52,7 @@ export const VideoScreen = ({ setCurrentScreen, videoRef }: VideoScreenProps) =>
       </div>
       <div className="flex justify-center mb-8">
         <Image
-          src="/images/Chiefy upscale logo.png"
+          src="/images/chiefy-logo.png"
           alt="Chiefy Logo"
           width={300}
           height={100}

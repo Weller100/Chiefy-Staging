@@ -199,9 +199,6 @@ const LandingPage = () => {
                 Get <span className="gradient-text">Property Development</span>{" "}
                 Ready in 30 Days
               </h1>
-              <p className="text-xl md:text-2xl text-white/80 mb-8">
-                Practical, fun & new-age, beginner-friendly coaching.
-              </p>
               <div className="max-w-6xl mx-auto mb-8">
                 <div className="flex items-center justify-center gap-4 mb-4">
                   <div className="w-2 h-2 rounded-full bg-white/60 flex-shrink-0"></div>

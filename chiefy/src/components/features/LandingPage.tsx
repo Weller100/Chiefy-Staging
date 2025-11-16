@@ -213,21 +213,12 @@ const LandingPage = () => {
                 <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-white text-center leading-tight">
                    We give you the tools you need to communicate across the 100+ industry trades and professionals so you can act with confidence from Day 1.
                 </h2>
-              </div>
-              <div className="flex justify-center mb-8">
-                <Image
-                  src="/images/chiefy-logo.png"
-                  alt="Chiefy Logo"
-                  width={300}
-                  height={100}
-                  className="h-24 w-auto"
-                />
-              </div>
+              
               <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center">
                 <a
                   href="#stay-updated"
                   onClick={(e) => {
-                    e.preventDefault();
+                    e.preventDefault(); 
                     document
                       .querySelector("#stay-updated")
                       ?.scrollIntoView({ behavior: "smooth" });

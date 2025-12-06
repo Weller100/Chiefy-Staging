@@ -1128,7 +1128,7 @@ const LandingPage = () => {
                 <span className="gradient-text"> Build your Future Today</span>
               </h2>
               <p className="text-xl text-white/80 mb-8">
-                Join the next wave of property innovators with AI.
+                Join the next wave of property innovators.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
                 <a

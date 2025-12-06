@@ -203,20 +203,23 @@ const LandingPage = () => {
                 <div className="flex items-center justify-center gap-4 mb-4">
                   <div className="w-2 h-2 rounded-full bg-white/60 flex-shrink-0"></div>
                   <p className="text-white/70 text-xs md:text-sm lg:text-base tracking-wide font-medium text-center whitespace-nowrap">
-                    Are you feeling lost or confused or don't know where to start with your career in property & construction?
+                    Are you feeling lost or confused or don't know where to
+                    start with your career in property & construction?
                   </p>
                   <div className="w-2 h-2 rounded-full bg-white/60 flex-shrink-0"></div>
                 </div>
                 <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-white text-center leading-tight">
-                   We give you the tools you need to communicate across the 100+ industry trades and professionals so you can act with confidence from Day 1.
+                  We give you the tools you need to communicate across the 100+
+                  industry trades and professionals so you can act with
+                  confidence from Day 1.
                 </h2>
               </div>
-              
+
               <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center">
                 <a
                   href="#stay-updated"
                   onClick={(e) => {
-                    e.preventDefault(); 
+                    e.preventDefault();
                     document
                       .querySelector("#stay-updated")
                       ?.scrollIntoView({ behavior: "smooth" });
@@ -268,9 +271,7 @@ const LandingPage = () => {
         {/* Message Section */}
         <section className="py-16 bg-gradient-to-b from-black to-black/95">
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl mx-auto text-center">
-              
-            </div>
+            <div className="max-w-4xl mx-auto text-center"></div>
           </div>
         </section>
 
@@ -560,7 +561,9 @@ const LandingPage = () => {
               <div className="flex overflow-hidden">
                 <div className="marquee flex gap-8 items-center">
                   <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
-                    <p className="text-white/70 font-semibold">University of Sydney</p>
+                    <p className="text-white/70 font-semibold">
+                      University of Sydney
+                    </p>
                   </div>
                   <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
                     <p className="text-white/70 font-semibold">UTS</p>
@@ -569,23 +572,31 @@ const LandingPage = () => {
                     <p className="text-white/70 font-semibold">RMIT</p>
                   </div>
                   <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
-                    <p className="text-white/70 font-semibold">University of Melbourne</p>
+                    <p className="text-white/70 font-semibold">
+                      University of Melbourne
+                    </p>
                   </div>
                   <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
-                    <p className="text-white/70 font-semibold">Bryant Alsop Arch</p>
+                    <p className="text-white/70 font-semibold">
+                      Bryant Alsop Arch
+                    </p>
                   </div>
                   <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
                     <p className="text-white/70 font-semibold">UrbanCore</p>
                   </div>
                   <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
-                    <p className="text-white/70 font-semibold">Stadiums Tasmania</p>
+                    <p className="text-white/70 font-semibold">
+                      Stadiums Tasmania
+                    </p>
                   </div>
                   <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
                     <p className="text-white/70 font-semibold">LVL Group</p>
                   </div>
                   {/* Duplicate for seamless loop */}
                   <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
-                    <p className="text-white/70 font-semibold">University of Sydney</p>
+                    <p className="text-white/70 font-semibold">
+                      University of Sydney
+                    </p>
                   </div>
                   <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
                     <p className="text-white/70 font-semibold">UTS</p>
@@ -594,16 +605,22 @@ const LandingPage = () => {
                     <p className="text-white/70 font-semibold">RMIT</p>
                   </div>
                   <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
-                    <p className="text-white/70 font-semibold">University of Melbourne</p>
+                    <p className="text-white/70 font-semibold">
+                      University of Melbourne
+                    </p>
                   </div>
                   <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
-                    <p className="text-white/70 font-semibold">Bryant Alsop Arch</p>
+                    <p className="text-white/70 font-semibold">
+                      Bryant Alsop Arch
+                    </p>
                   </div>
                   <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
                     <p className="text-white/70 font-semibold">UrbanCore</p>
                   </div>
                   <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
-                    <p className="text-white/70 font-semibold">Stadiums Tasmania</p>
+                    <p className="text-white/70 font-semibold">
+                      Stadiums Tasmania
+                    </p>
                   </div>
                   <div className="bg-white/5 backdrop-blur-sm rounded-lg px-8 py-6 border border-white/10 whitespace-nowrap flex-shrink-0 hover:border-purple-500/50 transition-all">
                     <p className="text-white/70 font-semibold">LVL Group</p>
@@ -954,8 +971,8 @@ const LandingPage = () => {
                 {/* Feature 1 */}
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
                   <div className="flex justify-center mb-4">
-                    <img 
-                      src="/images/Exposure-to-Industry-Experts-Networks.png" 
+                    <img
+                      src="/images/Exposure-to-Industry-Experts-Networks.png"
                       alt="Exposure to Industry Experts and Networks"
                       className="w-24 h-24 object-contain"
                     />
@@ -968,8 +985,8 @@ const LandingPage = () => {
                 {/* Feature 2 */}
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
                   <div className="flex justify-center mb-4">
-                    <img 
-                      src="/images/Relatable-Lessons-Real-Life-Scenarios.png" 
+                    <img
+                      src="/images/Relatable-Lessons-Real-Life-Scenarios.png"
                       alt="Relatable Lessons & Real-life Scenarios"
                       className="w-24 h-24 object-contain"
                     />
@@ -982,8 +999,8 @@ const LandingPage = () => {
                 {/* Feature 3 */}
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
                   <div className="flex justify-center mb-4">
-                    <img 
-                      src="/images/site-visit.png" 
+                    <img
+                      src="/images/site-visit.png"
                       alt="Site Visit"
                       className="w-24 h-24 object-contain"
                     />
@@ -996,8 +1013,8 @@ const LandingPage = () => {
                 {/* Feature 4 */}
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
                   <div className="flex justify-center mb-4">
-                    <img 
-                      src="/images/guest-speaker.png" 
+                    <img
+                      src="/images/guest-speaker.png"
                       alt="Guest Speakers"
                       className="w-24 h-24 object-contain"
                     />
@@ -1010,8 +1027,8 @@ const LandingPage = () => {
                 {/* Feature 5 */}
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
                   <div className="flex justify-center mb-4">
-                    <img 
-                      src="/images/innovative-training tools.png" 
+                    <img
+                      src="/images/innovative-training tools.png"
                       alt="Innovative Training Tools"
                       className="w-24 h-24 object-contain"
                     />
@@ -1024,8 +1041,8 @@ const LandingPage = () => {
                 {/* Feature 6 */}
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
                   <div className="flex justify-center mb-4">
-                    <img 
-                      src="/images/merchandise.png" 
+                    <img
+                      src="/images/merchandise.png"
                       alt="Limited Edition Chiefy.ai Merchandise"
                       className="w-24 h-24 object-contain"
                     />
@@ -1152,7 +1169,7 @@ const LandingPage = () => {
                 <span className="gradient-text"> Build your Future Today</span>
               </h2>
               <p className="text-xl text-white/80 mb-8">
-                Join the next wave of property innovators with AI.
+                Join the next wave of property innovators.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
                 <a
@@ -1337,8 +1354,10 @@ const LandingPage = () => {
         <footer className="py-16 bg-black border-t border-white/10">
           <div className="container mx-auto px-6">
             <div className="flex flex-col items-center text-center">
-              <Link href="#" className="flex items-center gap-2 mb-4 justify-center">
-                
+              <Link
+                href="#"
+                className="flex items-center gap-2 mb-4 justify-center"
+              >
                 <Image
                   src="/images/Chiefy upscale logo.png"
                   alt="Chiefy Logo"
